@@ -3,7 +3,7 @@ st.set_page_config(page_title='MyStreamlit',page_icon='random')
 mymenu=st.sidebar.selectbox('My Menu',('Home','Fill Form','Downloads'))
 st.image('https://onleitechnologies.com/wp-content/uploads/2021/12/cropped-Untitled_design__6_-removebg-preview-1.png')
 st.title('Onlei Technologies')
-st.header('By Abhinav Srivastava')
+st.header('By Divyansh Verma')
 st.text('This is a tutorial on streamlit library')
 if(mymenu=='Home'):
     st.markdown('<center><h1>WELCOME</h1></center>',unsafe_allow_html=True)
